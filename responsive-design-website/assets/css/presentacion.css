@@ -1,0 +1,38 @@
+.presentacion {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    overflow: hidden;
+}
+
+.presentacion__title {
+    font-size: 10rem;
+    font-family: 'Pirata One', cursive;
+    font-weight: 500;
+    animation-duration: 1.5s;
+    animation-name: texto;
+    animation-iteration-count: 1;
+
+    letter-spacing: 25px;
+}
+
+@keyframes texto {
+    0% {
+
+        letter-spacing: 100px;
+
+    }
+    85% {
+
+        letter-spacing: 35px;
+
+    }
+    100% {
+        
+        letter-spacing: 25px;
+    
+    }
+}
